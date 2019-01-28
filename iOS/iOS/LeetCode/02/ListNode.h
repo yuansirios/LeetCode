@@ -25,14 +25,12 @@ NS_ASSUME_NONNULL_BEGIN
  遍历单链表
  @param head 头节点
  */
-+ (void)traveraslList:(ListNode *)head resultBlock:(void(^)(NSInteger i))block;
-
++ (NSArray *)getLinkList:(ListNode *)head;
 
 /**
  单链表逆置
  @param head 头节点
  */
-+ (void)reverseList2:(ListNode *)head;
 
 + (ListNode *)reverseList:(ListNode *)head;
 

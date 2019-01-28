@@ -31,18 +31,27 @@
     return p;
 }
 
-+ (void)traveraslList:(ListNode *)head resultBlock:(void (^)(NSInteger))block
-{
-    if (head->next == nil) {
-        if (block) {
-            block([head->val integerValue]);
+
++ (NSArray *)getLinkList:(ListNode *)head {
+    ListNode *current = head;
+    if (current->next == nil) {
+        NSLog (@"链表为空!");
+        return nil;
+    }
+    
+    NSMutableArray *valArr = @[].mutableCopy;
+    [valArr addObject:current->val];
+    
+    while ( current->next != nil ) {
+        [valArr addObject:current->next->val];
+        if (current->next->next == nil) {
+            return valArr.copy;
+            break;
         }
-        return;
+        current = current->next;
     }
-    if (block) {
-        block([head->val integerValue]);
-    }
-    [ListNode traveraslList:head->next resultBlock:block];
+    
+    return nil;
 }
 
 + (ListNode *)reverseList:(ListNode *)head{
@@ -62,22 +71,6 @@
         tempHead = next;
     }
     return pre;
-}
-
-+ (void)reverseList2:(ListNode *)head
-{
-    ListNode *p = head;
-    ListNode *s = p->next;
-    
-    while (s->next != nil) {
-        ListNode *t = s->next;
-        s->next = p;
-        p = s;
-        s = t;
-    }
-    s->next = p;
-    head->next->next = nil; //尾指针置为空
-    head->next = s; //赋值到头指针最后一位
 }
 
 + (ListNode *)reverse:(ListNode *)node
