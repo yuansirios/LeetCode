@@ -12,6 +12,9 @@
 #import "ListNode.h"
 #import "addTwoNumbers.h"
 #import "Solution03.h"
+#import "Solution04.h"
+#import "Solution05.h"
+#import "Solution06.h"
 
 @interface iOSTests : XCTestCase
 
@@ -73,9 +76,30 @@
 - (void)test03{
     Solution03 *sol = Solution03.new;
     NSLog(@"整数反转：%d",[sol reverse:-120]);
-    NSLog(@"整数反转：%d",[sol reverse2:-120]);
 }
 
+#pragma mark - *********** 04-判断回文 ***********
 
+- (void)test04{
+    Solution04 *sol = Solution04.new;
+    NSLog(@"是否回文：%@",[sol isPalindrome:120]?@"YES":@"NO");
+    NSLog(@"是否回文：%@",[sol isPalindrome:12321]?@"YES":@"NO");
+}
+
+#pragma mark - *********** 05-罗马字符转数字 ***********
+
+- (void)test05{
+    Solution05 *sol = Solution05.new;
+    NSInteger value = [sol RomanToInt:@"IV"];
+    NSLog(@"结果：%zd",value);
+}
+
+#pragma mark - *********** 06-最长公共前缀 ***********
+
+- (void)test06{
+    Solution06 *sol = Solution06.new;
+    NSString *value = [sol LongestCommonPrefix:@[@"111",@"112",@"115"]];
+    NSLog(@"结果：%@",value);
+}
 
 @end
