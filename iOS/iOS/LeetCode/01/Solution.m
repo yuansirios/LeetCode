@@ -6,9 +6,9 @@
 //  Copyright © 2019 yuan. All rights reserved.
 //
 
-#import "twoSum.h"
+#import "Solution.h"
 
-@implementation twoSum
+@implementation Solution
 
 - (NSArray *)twoSum:(NSArray *)nums target:(int)target{
     

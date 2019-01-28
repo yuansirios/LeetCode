@@ -8,9 +8,10 @@
 
 #import <XCTest/XCTest.h>
 
-#import "twoSum.h"
+#import "Solution.h"
 #import "ListNode.h"
 #import "addTwoNumbers.h"
+#import "Solution03.h"
 
 @interface iOSTests : XCTestCase
 
@@ -44,7 +45,7 @@
     NSArray *nums = @[@(1),@(2),@(7),@(8),@(11),@(15)];
     int target = 9;
     
-    NSArray *result = [[twoSum new] twoSum:nums target:target];
+    NSArray *result = [[Solution new] twoSum:nums target:target];
     NSLog(@"%@",result);
 }
 
@@ -65,6 +66,14 @@
     ListNode *sumNode = [[addTwoNumbers new] addTwoNumbers:node twoNode:node2];
     NSArray *valArr = [ListNode getLinkList:sumNode];
     NSLog(@"%@",valArr);
+}
+
+#pragma mark - *********** 03-整数反转 ***********
+
+- (void)test03{
+    Solution03 *sol = Solution03.new;
+    NSLog(@"整数反转：%d",[sol reverse:-120]);
+    NSLog(@"整数反转：%d",[sol reverse2:-120]);
 }
 
 

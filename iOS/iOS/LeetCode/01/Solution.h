@@ -1,5 +1,5 @@
 //
-//  twoSum.h
+//  Solution.h
 //  iOS
 //
 //  Created by yuan on 2019/1/28.
@@ -24,7 +24,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface twoSum : NSObject
+@interface Solution : NSObject
 
 - (NSArray *)twoSum:(NSArray *)nums target:(int)target;
 
