@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C129FEE2236504F00982910 /* Solution07.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C129FED2236504F00982910 /* Solution07.m */; };
+		1C129FEF2236504F00982910 /* Solution07.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C129FED2236504F00982910 /* Solution07.m */; };
 		1C89AFD521FADFE400E3F51F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C89AFD421FADFE400E3F51F /* AppDelegate.m */; };
 		1C89AFD821FADFE400E3F51F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C89AFD721FADFE400E3F51F /* ViewController.m */; };
 		1C89AFDB21FADFE400E3F51F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C89AFD921FADFE400E3F51F /* Main.storyboard */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C129FEC2236504F00982910 /* Solution07.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Solution07.h; sourceTree = "<group>"; };
+		1C129FED2236504F00982910 /* Solution07.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solution07.m; sourceTree = "<group>"; };
 		1C89AFD021FADFE400E3F51F /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C89AFD321FADFE400E3F51F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1C89AFD421FADFE400E3F51F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C129FEB2236503100982910 /* 07 */ = {
+			isa = PBXGroup;
+			children = (
+				1C129FEC2236504F00982910 /* Solution07.h */,
+				1C129FED2236504F00982910 /* Solution07.m */,
+			);
+			path = 07;
+			sourceTree = "<group>";
+		};
 		1C89AFC721FADFE400E3F51F = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +154,7 @@
 				1C89B00D21FEDBB900E3F51F /* 04 */,
 				1C89B01221FEE06D00E3F51F /* 05[未完成] */,
 				1C89B01721FEEBFE00E3F51F /* 06 */,
+				1C129FEB2236503100982910 /* 07 */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -308,6 +322,7 @@
 				1C89B00621FEAD9C00E3F51F /* ListNode.m in Sources */,
 				1C89B00421FEAD0D00E3F51F /* addTwoNumbers.m in Sources */,
 				1C89AFE321FADFE600E3F51F /* main.m in Sources */,
+				1C129FEE2236504F00982910 /* Solution07.m in Sources */,
 				1C89B00A21FECD6500E3F51F /* Solution03.m in Sources */,
 				1C89AFFF21FEABDB00E3F51F /* Solution.m in Sources */,
 				1C89AFD521FADFE400E3F51F /* AppDelegate.m in Sources */,
@@ -319,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C89B00021FEABDB00E3F51F /* Solution.m in Sources */,
+				1C129FEF2236504F00982910 /* Solution07.m in Sources */,
 				1C89B00B21FECD6500E3F51F /* Solution03.m in Sources */,
 				1C89B01B21FEEC1100E3F51F /* Solution06.m in Sources */,
 				1C89B00521FEAD0D00E3F51F /* addTwoNumbers.m in Sources */,

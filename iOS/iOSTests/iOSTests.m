@@ -15,6 +15,7 @@
 #import "Solution04.h"
 #import "Solution05.h"
 #import "Solution06.h"
+#import "Solution07.h"
 
 @interface iOSTests : XCTestCase
 
@@ -101,5 +102,14 @@
     NSString *value = [sol LongestCommonPrefix:@[@"111",@"112",@"115"]];
     NSLog(@"结果：%@",value);
 }
+
+#pragma mark - *********** 07-搜索插入位置 ***********
+
+- (void)test07{
+    Solution07 *sol = Solution07.new;
+    int res = [sol searchInsert:@[@1,@3,@5,@6] target:0];
+    NSLog(@"结果：%d",res);
+}
+
 
 @end
