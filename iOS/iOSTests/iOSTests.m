@@ -13,7 +13,6 @@
 #import "addTwoNumbers.h"
 #import "Solution03.h"
 #import "Solution04.h"
-#import "Solution05.h"
 #import "Solution06.h"
 #import "Solution07.h"
 
@@ -87,14 +86,6 @@
     NSLog(@"是否回文：%@",[sol isPalindrome:12321]?@"YES":@"NO");
 }
 
-#pragma mark - *********** 05-罗马字符转数字 ***********
-
-- (void)test05{
-    Solution05 *sol = Solution05.new;
-    NSInteger value = [sol RomanToInt:@"IV"];
-    NSLog(@"结果：%zd",value);
-}
-
 #pragma mark - *********** 06-最长公共前缀 ***********
 
 - (void)test06{
@@ -107,7 +98,7 @@
 
 - (void)test07{
     Solution07 *sol = Solution07.new;
-    int res = [sol searchInsert:@[@1,@3,@5,@6] target:0];
+    int res = [sol searchInsert:@[@1,@3,@5,@6] target:2];
     NSLog(@"结果：%d",res);
 }
 

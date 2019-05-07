@@ -26,8 +26,6 @@
 		1C89B00B21FECD6500E3F51F /* Solution03.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C89B00921FECD6500E3F51F /* Solution03.m */; };
 		1C89B01021FEDBCF00E3F51F /* Solution04.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C89B00F21FEDBCF00E3F51F /* Solution04.m */; };
 		1C89B01121FEDBCF00E3F51F /* Solution04.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C89B00F21FEDBCF00E3F51F /* Solution04.m */; };
-		1C89B01521FEE07B00E3F51F /* Solution05.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C89B01421FEE07B00E3F51F /* Solution05.m */; };
-		1C89B01621FEE07B00E3F51F /* Solution05.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C89B01421FEE07B00E3F51F /* Solution05.m */; };
 		1C89B01A21FEEC1100E3F51F /* Solution06.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C89B01921FEEC1100E3F51F /* Solution06.m */; };
 		1C89B01B21FEEC1100E3F51F /* Solution06.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C89B01921FEEC1100E3F51F /* Solution06.m */; };
 /* End PBXBuildFile section */
@@ -68,8 +66,6 @@
 		1C89B00C21FECE9B00E3F51F /* Solution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Solution.h; sourceTree = "<group>"; };
 		1C89B00E21FEDBCF00E3F51F /* Solution04.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Solution04.h; sourceTree = "<group>"; };
 		1C89B00F21FEDBCF00E3F51F /* Solution04.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solution04.m; sourceTree = "<group>"; };
-		1C89B01321FEE07B00E3F51F /* Solution05.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Solution05.h; sourceTree = "<group>"; };
-		1C89B01421FEE07B00E3F51F /* Solution05.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solution05.m; sourceTree = "<group>"; };
 		1C89B01821FEEC1100E3F51F /* Solution06.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Solution06.h; sourceTree = "<group>"; };
 		1C89B01921FEEC1100E3F51F /* Solution06.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solution06.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,13 +88,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C129FEB2236503100982910 /* 07 */ = {
+		1C129FEB2236503100982910 /* [07]搜索插入位置 */ = {
 			isa = PBXGroup;
 			children = (
 				1C129FEC2236504F00982910 /* Solution07.h */,
 				1C129FED2236504F00982910 /* Solution07.m */,
 			);
-			path = 07;
+			path = "[07]搜索插入位置";
 			sourceTree = "<group>";
 		};
 		1C89AFC721FADFE400E3F51F = {
@@ -148,27 +144,26 @@
 		1C89AFFB21FEABA800E3F51F /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				1C89AFFC21FEABB700E3F51F /* 01 */,
-				1C89B00121FEAD0300E3F51F /* 02 */,
-				1C89B00721FECD4100E3F51F /* 03 */,
-				1C89B00D21FEDBB900E3F51F /* 04 */,
-				1C89B01221FEE06D00E3F51F /* 05[未完成] */,
-				1C89B01721FEEBFE00E3F51F /* 06 */,
-				1C129FEB2236503100982910 /* 07 */,
+				1C89AFFC21FEABB700E3F51F /* [01]两数之和 */,
+				1C89B00121FEAD0300E3F51F /* [02]两数相加 */,
+				1C89B00721FECD4100E3F51F /* [03]整数反转 */,
+				1C89B00D21FEDBB900E3F51F /* [04]判断回文 */,
+				1C89B01721FEEBFE00E3F51F /* [06]最长公共前缀 */,
+				1C129FEB2236503100982910 /* [07]搜索插入位置 */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
 		};
-		1C89AFFC21FEABB700E3F51F /* 01 */ = {
+		1C89AFFC21FEABB700E3F51F /* [01]两数之和 */ = {
 			isa = PBXGroup;
 			children = (
 				1C89B00C21FECE9B00E3F51F /* Solution.h */,
 				1C89AFFE21FEABDB00E3F51F /* Solution.m */,
 			);
-			path = 01;
+			path = "[01]两数之和";
 			sourceTree = "<group>";
 		};
-		1C89B00121FEAD0300E3F51F /* 02 */ = {
+		1C89B00121FEAD0300E3F51F /* [02]两数相加 */ = {
 			isa = PBXGroup;
 			children = (
 				1C89AFF721FAEB8500E3F51F /* ListNode.h */,
@@ -176,43 +171,34 @@
 				1C89B00221FEAD0D00E3F51F /* addTwoNumbers.h */,
 				1C89B00321FEAD0D00E3F51F /* addTwoNumbers.m */,
 			);
-			path = 02;
+			path = "[02]两数相加";
 			sourceTree = "<group>";
 		};
-		1C89B00721FECD4100E3F51F /* 03 */ = {
+		1C89B00721FECD4100E3F51F /* [03]整数反转 */ = {
 			isa = PBXGroup;
 			children = (
 				1C89B00821FECD6500E3F51F /* Solution03.h */,
 				1C89B00921FECD6500E3F51F /* Solution03.m */,
 			);
-			path = 03;
+			path = "[03]整数反转";
 			sourceTree = "<group>";
 		};
-		1C89B00D21FEDBB900E3F51F /* 04 */ = {
+		1C89B00D21FEDBB900E3F51F /* [04]判断回文 */ = {
 			isa = PBXGroup;
 			children = (
 				1C89B00E21FEDBCF00E3F51F /* Solution04.h */,
 				1C89B00F21FEDBCF00E3F51F /* Solution04.m */,
 			);
-			path = 04;
+			path = "[04]判断回文";
 			sourceTree = "<group>";
 		};
-		1C89B01221FEE06D00E3F51F /* 05[未完成] */ = {
-			isa = PBXGroup;
-			children = (
-				1C89B01321FEE07B00E3F51F /* Solution05.h */,
-				1C89B01421FEE07B00E3F51F /* Solution05.m */,
-			);
-			path = "05[未完成]";
-			sourceTree = "<group>";
-		};
-		1C89B01721FEEBFE00E3F51F /* 06 */ = {
+		1C89B01721FEEBFE00E3F51F /* [06]最长公共前缀 */ = {
 			isa = PBXGroup;
 			children = (
 				1C89B01821FEEC1100E3F51F /* Solution06.h */,
 				1C89B01921FEEC1100E3F51F /* Solution06.m */,
 			);
-			path = 06;
+			path = "[06]最长公共前缀";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,7 +302,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C89B01A21FEEC1100E3F51F /* Solution06.m in Sources */,
-				1C89B01521FEE07B00E3F51F /* Solution05.m in Sources */,
 				1C89B01021FEDBCF00E3F51F /* Solution04.m in Sources */,
 				1C89AFD821FADFE400E3F51F /* ViewController.m in Sources */,
 				1C89B00621FEAD9C00E3F51F /* ListNode.m in Sources */,
@@ -341,7 +326,6 @@
 				1C89AFED21FADFE600E3F51F /* iOSTests.m in Sources */,
 				1C89B01121FEDBCF00E3F51F /* Solution04.m in Sources */,
 				1C89AFF921FAEB8500E3F51F /* ListNode.m in Sources */,
-				1C89B01621FEE07B00E3F51F /* Solution05.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
