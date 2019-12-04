@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C03868623973BCD00252E94 /* Solution08.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C03868523973BCD00252E94 /* Solution08.m */; };
+		1C03868723973BCD00252E94 /* Solution08.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C03868523973BCD00252E94 /* Solution08.m */; };
+		1C03868B23973CDE00252E94 /* Solution09.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C03868A23973CDE00252E94 /* Solution09.m */; };
+		1C03868C23973CDE00252E94 /* Solution09.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C03868A23973CDE00252E94 /* Solution09.m */; };
+		1C03869023973DA900252E94 /* Solution10.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C03868F23973DA900252E94 /* Solution10.m */; };
+		1C03869123973DA900252E94 /* Solution10.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C03868F23973DA900252E94 /* Solution10.m */; };
+		1C03869523973E4600252E94 /* Solution11.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C03869423973E4600252E94 /* Solution11.m */; };
+		1C03869623973E4600252E94 /* Solution11.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C03869423973E4600252E94 /* Solution11.m */; };
 		1C129FEE2236504F00982910 /* Solution07.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C129FED2236504F00982910 /* Solution07.m */; };
 		1C129FEF2236504F00982910 /* Solution07.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C129FED2236504F00982910 /* Solution07.m */; };
 		1C89AFD521FADFE400E3F51F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C89AFD421FADFE400E3F51F /* AppDelegate.m */; };
@@ -41,6 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C03868423973BCD00252E94 /* Solution08.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Solution08.h; sourceTree = "<group>"; };
+		1C03868523973BCD00252E94 /* Solution08.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solution08.m; sourceTree = "<group>"; };
+		1C03868923973CDE00252E94 /* Solution09.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Solution09.h; sourceTree = "<group>"; };
+		1C03868A23973CDE00252E94 /* Solution09.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solution09.m; sourceTree = "<group>"; };
+		1C03868E23973DA900252E94 /* Solution10.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Solution10.h; sourceTree = "<group>"; };
+		1C03868F23973DA900252E94 /* Solution10.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solution10.m; sourceTree = "<group>"; };
+		1C03869323973E4600252E94 /* Solution11.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Solution11.h; sourceTree = "<group>"; };
+		1C03869423973E4600252E94 /* Solution11.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solution11.m; sourceTree = "<group>"; };
 		1C129FEC2236504F00982910 /* Solution07.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Solution07.h; sourceTree = "<group>"; };
 		1C129FED2236504F00982910 /* Solution07.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solution07.m; sourceTree = "<group>"; };
 		1C89AFD021FADFE400E3F51F /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +104,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C03868323973B6600252E94 /* [08]一个数组有 N 个元素，求连续子数组的最大和 */ = {
+			isa = PBXGroup;
+			children = (
+				1C03868423973BCD00252E94 /* Solution08.h */,
+				1C03868523973BCD00252E94 /* Solution08.m */,
+			);
+			path = "[08]一个数组有 N 个元素，求连续子数组的最大和";
+			sourceTree = "<group>";
+		};
+		1C03868823973CBE00252E94 /* [09]N个台阶，一次可以走一步或者两步，求走这N个台阶有多少种走法 */ = {
+			isa = PBXGroup;
+			children = (
+				1C03868923973CDE00252E94 /* Solution09.h */,
+				1C03868A23973CDE00252E94 /* Solution09.m */,
+			);
+			path = "[09]N个台阶，一次可以走一步或者两步，求走这N个台阶有多少种走法";
+			sourceTree = "<group>";
+		};
+		1C03868D23973D9100252E94 /* [10]N对括号的所有的有效组合 */ = {
+			isa = PBXGroup;
+			children = (
+				1C03868E23973DA900252E94 /* Solution10.h */,
+				1C03868F23973DA900252E94 /* Solution10.m */,
+			);
+			path = "[10]N对括号的所有的有效组合";
+			sourceTree = "<group>";
+		};
+		1C03869223973E2F00252E94 /* [11]不用三方变量，交换值 */ = {
+			isa = PBXGroup;
+			children = (
+				1C03869323973E4600252E94 /* Solution11.h */,
+				1C03869423973E4600252E94 /* Solution11.m */,
+			);
+			path = "[11]不用三方变量，交换值";
+			sourceTree = "<group>";
+		};
 		1C129FEB2236503100982910 /* [07]搜索插入位置 */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +202,10 @@
 				1C89B00D21FEDBB900E3F51F /* [04]判断回文 */,
 				1C89B01721FEEBFE00E3F51F /* [06]最长公共前缀 */,
 				1C129FEB2236503100982910 /* [07]搜索插入位置 */,
+				1C03868323973B6600252E94 /* [08]一个数组有 N 个元素，求连续子数组的最大和 */,
+				1C03868823973CBE00252E94 /* [09]N个台阶，一次可以走一步或者两步，求走这N个台阶有多少种走法 */,
+				1C03868D23973D9100252E94 /* [10]N对括号的所有的有效组合 */,
+				1C03869223973E2F00252E94 /* [11]不用三方变量，交换值 */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -301,16 +357,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C03869523973E4600252E94 /* Solution11.m in Sources */,
 				1C89B01A21FEEC1100E3F51F /* Solution06.m in Sources */,
 				1C89B01021FEDBCF00E3F51F /* Solution04.m in Sources */,
 				1C89AFD821FADFE400E3F51F /* ViewController.m in Sources */,
 				1C89B00621FEAD9C00E3F51F /* ListNode.m in Sources */,
 				1C89B00421FEAD0D00E3F51F /* addTwoNumbers.m in Sources */,
+				1C03869023973DA900252E94 /* Solution10.m in Sources */,
+				1C03868B23973CDE00252E94 /* Solution09.m in Sources */,
 				1C89AFE321FADFE600E3F51F /* main.m in Sources */,
 				1C129FEE2236504F00982910 /* Solution07.m in Sources */,
 				1C89B00A21FECD6500E3F51F /* Solution03.m in Sources */,
 				1C89AFFF21FEABDB00E3F51F /* Solution.m in Sources */,
 				1C89AFD521FADFE400E3F51F /* AppDelegate.m in Sources */,
+				1C03868623973BCD00252E94 /* Solution08.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,12 +380,16 @@
 			files = (
 				1C89B00021FEABDB00E3F51F /* Solution.m in Sources */,
 				1C129FEF2236504F00982910 /* Solution07.m in Sources */,
+				1C03869623973E4600252E94 /* Solution11.m in Sources */,
 				1C89B00B21FECD6500E3F51F /* Solution03.m in Sources */,
 				1C89B01B21FEEC1100E3F51F /* Solution06.m in Sources */,
 				1C89B00521FEAD0D00E3F51F /* addTwoNumbers.m in Sources */,
 				1C89AFED21FADFE600E3F51F /* iOSTests.m in Sources */,
+				1C03868723973BCD00252E94 /* Solution08.m in Sources */,
 				1C89B01121FEDBCF00E3F51F /* Solution04.m in Sources */,
 				1C89AFF921FAEB8500E3F51F /* ListNode.m in Sources */,
+				1C03869123973DA900252E94 /* Solution10.m in Sources */,
+				1C03868C23973CDE00252E94 /* Solution09.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
