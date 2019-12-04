@@ -10,21 +10,21 @@
 
 @implementation Solution10
 
-- (NSArray *)getAllKH:(int)a{
-    NSMutableArray *result = @[].mutableCopy;
+//用Set不重复
+- (NSSet *)getAllKH:(int)a{
+    NSMutableSet *result = NSMutableSet.new;
     if (a == 1) {
         [result addObject:[NSString stringWithFormat:@"()"]];
     }else{
-        NSMutableArray *nextRes = [self getAllKH:a-1].mutableCopy;
+        NSMutableSet *nextRes = [self getAllKH:a-1].mutableCopy;
         for (NSString *s in nextRes) {
             
             NSString *str = [NSString stringWithFormat:@"%@()",s];
             NSString *str1 = [NSString stringWithFormat:@"()%@",s];
             NSString *str2 = [NSString stringWithFormat:@"(%@)",s];
-            
-            if (![result containsObject:str])  [result addObject:str];
-            if (![result containsObject:str1]) [result addObject:str1];
-            if (![result containsObject:str2]) [result addObject:str2];
+            [result addObject:str];
+            [result addObject:str1];
+            [result addObject:str2];
         }
     }
     return result.copy;
